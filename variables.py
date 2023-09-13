@@ -1,5 +1,27 @@
 ###-----------------------------Class Practice-----------------------------###
 
+#-----------------------2-1----------------------#
+print(type(None))
+print(type(True))
+xx = 1
+print(type(xx))
+temp = 98.6
+print(type(temp))
+print(type(1))
+print(type(1.0))
+print(type("Hello World!"))
+print(type("-1.0"))
+print(type(1+2)) #Class complex
+
+print("""Hello World!
+Hello World! 2
+Hello World! 3
+""")
+      
+print("\tHello")# Tab Action
+print("Good \"Morning\"")
+print("\\\\Hello")#Backlash
+
 #-----------------------4-1----------------------#
 print(int(3.141595)) #Python can covert from Floats to Integers
 print(float(365)) #Python converts Integer into floats by adding .0 to the interger
@@ -42,3 +64,4 @@ print(type(1 + 2 * 5)) #Returns a Integer
 name = input("Enter your name : ")
 
 print("Welcome {}".format(name))
+
