@@ -22,6 +22,23 @@ print("\tHello")# Tab Action
 print("Good \"Morning\"")
 print("\\\\Hello")#Backlash
 
+x, y = [10, 20]#Can be assigned as 2 variables, a list or a tuple
+
+print("{} {}".format(x, y))
+
+#-----------------------3-1----------------------#
+#Id
+
+print("id(2):", id(2))
+
+prompt = "Enter speed of the car \n"
+speed = input(prompt)
+print(speed)
+print(type(speed))
+speed = int(speed)
+speed + 5
+print(speed)
+
 #-----------------------4-1----------------------#
 print(int(3.141595)) #Python can covert from Floats to Integers
 print(float(365)) #Python converts Integer into floats by adding .0 to the interger
@@ -38,7 +55,7 @@ print(type(my_other_string))
 
 #my_string = my_string + 1 It can't execute because they are different data types
 
-my_string = "{x} {y}".format(x = my_string, y = 1)#Correct it by format function
+my_string = "{x} + {y}".format(x = my_string, y = 1)#Correct it by format function
 
 print(my_string * 2)#Prints the string twice
 

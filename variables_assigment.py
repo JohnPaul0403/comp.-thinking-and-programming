@@ -15,7 +15,6 @@ celsius = int(input("Enter Celsius Temperature : "))
 
 print(farenheit(celsius))
 
-
 #-----------------------5-3----------------------#
 def hour_counter(seconds):
     hours = seconds/3600
