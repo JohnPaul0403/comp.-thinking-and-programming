@@ -21,7 +21,7 @@ def hour_counter(seconds):
     minutes = (hours - int(hours)) * 60
     seconds2 = (minutes - int(minutes)) * 60
 
-    return "{x} seconds is {y} hours, {z} minutes, {a} seconds".format(x = seconds, y = int(hours), z = int(minutes), a = int(seconds2))
+    return "{x} seconds is {y} hours, {z} minutes, {a} seconds".format(x = seconds, y = int(hours), z = int(minutes), a = int(round(seconds2, 0)))
 
 seconds = int(input("Enter seconds : "))
 
