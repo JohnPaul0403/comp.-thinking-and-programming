@@ -14,20 +14,14 @@ def first_assigment(hours, rate):
     
 
 def grade_calculator(score):
-    rounded_score = int(score / 10)
-    if rounded_score <=5:
-        rounded_score = 5
-        
-    puntuations = {
-        10: "A",
-        9 : "A",
-        8 : "B",
-        7 : "C",
-        6 : "D",
-        5 : "F",
-    }
-
-    return puntuations[rounded_score] 
+    grades = ["F", "D", "C", "B", "A"]
+    n = 0
+    for i in range(60,110, 10):
+        if score < i:
+            return grades[n]
+        n += 1
+    
+    return "A"
     
 def average_nums():
     nums = []
