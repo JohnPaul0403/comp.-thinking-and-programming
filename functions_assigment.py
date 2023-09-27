@@ -48,7 +48,7 @@ def main():
     rate = input("Enter rate: ")
     try:
         hours = int(hours)
-        rate = int(rate)
+        rate = float(rate)
     except:
         hours = 0
         rate = 0
