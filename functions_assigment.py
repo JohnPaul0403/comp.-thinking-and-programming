@@ -69,7 +69,7 @@ def main():
             print("Please enter a positive number")
             continue
 
-        print("numbers divisible by 3 among numbers from 1 to 12 : {}".format(len(num_divide3(num))))
+        print("numbers divisible by 3 among numbers from 1 to {} : {}".format(num, len(num_divide3(num))))
 
 
 
