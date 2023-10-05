@@ -11,4 +11,6 @@ while True:
 
     if word_input.lower() == "done" : break
 
-    print("{}".format(filter_string(word_input)))
+    print(f"{filter_string(word_input)}")
+
+print("Bye !")
