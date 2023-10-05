@@ -1,5 +1,5 @@
 while True: 
-    word_input = input("Enter two letters: ")
+    word_input = input("Enter two words: ")
     if word_input.lower() == "done" or word_input == "" : break
 
     word_input = word_input.split(" ")
