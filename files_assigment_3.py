@@ -10,7 +10,6 @@ def get_spam_average(file):
 input_file = input("Enter a file name : ")
 
 try:
-    open(input_file)
     print(f"Average spam confidence : {get_spam_average(input_file)}")
 except:
     print(f"File cannot be opened : {input_file}")

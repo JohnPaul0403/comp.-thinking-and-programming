@@ -13,11 +13,12 @@ def chop(nums) -> None:
 #Printing the list before and after calling the chop function
 print(f"my list before call chop function => {nums}")
 chop(nums)
-print(f"my list after call chop  function => {nums}")
+print(f"my list after call chop  function => {nums}\n")
 
 #Declaration the function middle 
 #Returns a list without the first and last element of the input list
-def middle(arr) : return arr[1:-1]
+def middle(arr) : 
+    return arr[1:-1]
 
 #Declaration of variables
 my_list = [1,2,3,4]

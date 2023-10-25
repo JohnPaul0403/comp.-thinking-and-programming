@@ -1,4 +1,4 @@
-#Note from the class
+#Note from the class 
 import random
 
 x = 3
